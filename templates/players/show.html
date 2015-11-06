@@ -10,6 +10,9 @@
     <form action = '/players/{{player['id']}}/edit' method = 'GET'>
       <button>Update player_id {{player['id']}}</button>
     </form>
+    <form action="/players/{{player['id']}}/delete" method="POST">
+      <button>Delete player_id {{player['id']}}</button>
+    </form>
 
 </body>
 </html>
